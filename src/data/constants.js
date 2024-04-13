@@ -204,50 +204,18 @@ export const education = [
 export const projects = [
     {
         id: 0,
-        title: 'Best Eats',
+        title: 'CineWave',
         description:
-            'Frontend web application for food ordering build with React and Tailwind CSS',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/BestEats.png?raw=true',
-        tags: ['React Js', 'Tailwind CSS'],
+            'This is a web application built with React that allows users to explore and discover movies and TV shows. It utilizes various libraries and tools to provide a seamless user experience.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/CineWave.png?raw=true',
+        tags: ['React Js', 'API','Axios','TailwindCSS', 'React Player', 'Redux'],
         category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/Best-Eats',
-        webapp: 'https://best-eats-react-tailwindcss.netlify.app/',
+        github: 'https://github.com/praveenakamrshadow/CineWave',
+        webapp: 'https://cinewave-react.vercel.app/',
     },
+    
     {
         id: 1,
-        title: 'Sidcup Family Golf',
-        description:
-            'An interactive animated website with a primary focus on user experience.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/sideCupFamilyGolf.png?raw=true',
-        tags: ['HTML', 'CSS', 'JavaScript', 'GSAP', 'ScrollTrigger'],
-        category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/sidecup-family-golf',
-        webapp: 'https://praveenakamrshadow.github.io/sidecup-family-golf/',
-    },
-    {
-        id: 2,
-        title: 'Docs React App',
-        description:
-            'simple react docs web application for google docs like architecture',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/reactDocsApp.png?raw=true',
-        tags: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion'],
-        category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/docs-react-app',
-        webapp: 'https://react-docs-app.netlify.app/',
-    },
-    {
-        id: 3,
-        title: 'Pocket Notes',
-        description:
-            'The Pocket Notes app, crafted with React JS, CSS, and JavaScript, boasts a range of features. Users can effortlessly create groups with customizable names and icons, and each note comes stamped with a timestamp for easy reference. The app is not only feature-rich but also responsive, ensuring a seamless user experience across various devices.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/pocketNotes.png?raw=true',
-        tags: ['React Js', 'JavaScript', 'CSS'],
-        category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/Cuvette-React-Pocket-Notes',
-        webapp: 'https://cuvette-react-pocket-notes.vercel.app/',
-    },
-    {
-        id: 4,
         title: 'Super App',
         description:
             '"Super App" is a React-based web application designed for a seamless user experience. It encompasses features such as user registration, category selection, weather updates, news feeds, notes management, timers, and entertainment browsing using external APIs. The development process is marked by structured milestones, with progress documented through commits to a GitHub repository. The goal is to deliver a comprehensive and responsive application.',
@@ -258,32 +226,21 @@ export const projects = [
         webapp: 'https://cuvette-react-capstone-project.netlify.app/',
     },
     {
-        id: 5,
-        title: 'CineWave',
+        id: 2,
+        title: 'Pocket Notes',
         description:
-            'This is a web application built with React that allows users to explore and discover movies and TV shows. It utilizes various libraries and tools to provide a seamless user experience.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/CineWave.png?raw=true',
-        tags: ['React Js', 'API','Axios','TailwindCSS', 'React Player', 'Redux'],
+            'The Pocket Notes app, crafted with React JS, CSS, and JavaScript, boasts a range of features. Users can effortlessly create groups with customizable names and icons, and each note comes stamped with a timestamp for easy reference. The app is not only feature-rich but also responsive, ensuring a seamless user experience across various devices.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/pocketNotes.png?raw=true',
+        tags: ['React Js', 'JavaScript', 'CSS'],
         category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/CineWave',
-        webapp: 'https://cinewave-react.vercel.app/',
+        github: 'https://github.com/praveenakamrshadow/Cuvette-React-Pocket-Notes',
+        webapp: 'https://cuvette-react-pocket-notes.vercel.app/',
     },
     {
-        id: 6,
-        title: 'AxoApe',
-        description:
-            '"Super App" is a React-based web application designed for a seamless user experience. It encompasses features such as user registration, category selection, weather updates, news feeds, notes management, timers, and entertainment browsing using external APIs. The development process is marked by structured milestones, with progress documented through commits to a GitHub repository. The goal is to deliver a comprehensive and responsive application.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/axo-ape.png?raw=true',
-        tags: ['React Js', 'Framer Motion', 'TailwindCSS', 'GSAP'],
-        category: 'frontend',
-        github: 'https://github.com/praveenakamrshadow/axo-ape',
-        webapp: 'https://axo-ape.vercel.app/',
-    },
-    {
-        id: 7,
+        id: 3,
         title: 'GuardianVault',
         description:
-            '"Super App" is a React-based web application designed for a seamless user experience. It encompasses features such as user registration, category selection, weather updates, news feeds, notes management, timers, and entertainment browsing using external APIs. The development process is marked by structured milestones, with progress documented through commits to a GitHub repository. The goal is to deliver a comprehensive and responsive application.',
+            'Built a React-based password manager app with localStorage for secure password storage and copy-paste functionality.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/GuardianVault.png?raw=true',
         tags: ['React Js', 'JavaScript', 'TailwindCSS'],
         category: 'frontend',
@@ -291,10 +248,10 @@ export const projects = [
         webapp: 'https://guardian-vault.vercel.app/',
     },
     {
-        id: 8,
+        id: 4,
         title: 'PokeDex',
         description:
-            '"Super App" is a React-based web application designed for a seamless user experience. It encompasses features such as user registration, category selection, weather updates, news feeds, notes management, timers, and entertainment browsing using external APIs. The development process is marked by structured milestones, with progress documented through commits to a GitHub repository. The goal is to deliver a comprehensive and responsive application.',
+            'Developed a Pokémon web app enabling search, display of detailed Pokémon information, and exploration of the vast collection.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/PokeDex.png?raw=true',
         tags: ['React Js', 'Axios', 'API', 'CSS'],
         category: 'frontend',
@@ -302,7 +259,51 @@ export const projects = [
         webapp: 'https://pokedex-react-praveen.vercel.app/',
     },
     {
+        id: 5,
+        title: 'AxoApe',
+        description:
+            'Built an animated agency website leveraging Framer Motion, GSAP, and Locomotive to deliver a visually striking and dynamic user experience with smooth transitions and captivating motion effects.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/axo-ape.png?raw=true',
+        tags: ['React Js', 'Framer Motion', 'TailwindCSS', 'GSAP'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/axo-ape',
+        webapp: 'https://axo-ape.vercel.app/',
+    },
+    {
+        id: 6,
+        title: 'Docs React App',
+        description:
+            'simple react docs web application for google docs like architecture',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/reactDocsApp.png?raw=true',
+        tags: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/docs-react-app',
+        webapp: 'https://react-docs-app.netlify.app/',
+    },
+    {
         id: 7,
+        title: 'Best Eats',
+        description:
+            'Frontend web application for food ordering build with React and Tailwind CSS',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/BestEats.png?raw=true',
+        tags: ['React Js', 'Tailwind CSS'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/Best-Eats',
+        webapp: 'https://best-eats-react-tailwindcss.netlify.app/',
+    },
+    {
+        id: 8,
+        title: 'Sidcup Family Golf',
+        description:
+            'An interactive animated website with a primary focus on user experience.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/sideCupFamilyGolf.png?raw=true',
+        tags: ['HTML', 'CSS', 'JavaScript', 'GSAP', 'ScrollTrigger'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/sidecup-family-golf',
+        webapp: 'https://praveenakamrshadow.github.io/sidecup-family-golf/',
+    },
+    {
+        id: 9,
         title: 'Working on Backend projects deploying soon....',
         image: 'https://images.unsplash.com/photo-1553451166-232112bda6f6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         tags: ['In Progress'],
@@ -311,7 +312,7 @@ export const projects = [
         webapp: '#',
     },
     {
-        id: 8,
+        id: 10,
         title: 'Working on Fullstack projects deploying soon....',
         image: 'https://media.istockphoto.com/id/508408464/vector/work-in-progress-loading-bar.jpg?s=612x612&w=0&k=20&c=NyDSPinMdT1wuEODQQPk2YS2Tt-qf3K-w620zK3F9ls=',
         tags: ['In Progress'],
