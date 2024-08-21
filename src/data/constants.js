@@ -8,7 +8,7 @@ export const Bio = {
         'AI Enthusiast',
     ],
     description:
-        "Embark on a digital journey with me - a passionate and versatile individual specializing in full-stack and frontend web development. Committed to delivering high-quality results, I bring a positive attitude and a growth mindset to make a meaningful contribution to your web projects. Let's achieve great things together.",
+        "Embark on a digital journey with me—an enthusiastic and versatile individual with over a year of experience in frontend web development, specializing in both frontend and backend technologies. Committed to delivering high-quality results, I bring a positive attitude and a growth mindset to make a meaningful contribution to your web projects. Let’s achieve great things together.",
     github: 'https://github.com/praveenakamrshadow',
     resume: 'https://drive.google.com/file/d/18WQ6iWkuFUGyQS124hu0HI1_J23w4X0r/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/praveenpkyt/',
