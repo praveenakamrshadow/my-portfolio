@@ -118,7 +118,7 @@ export const experiences = [
         id: 0,
         img: 'https://media.licdn.com/dms/image/v2/D560BAQFLExlq8rj9wg/company-logo_200_200/company-logo_200_200/0/1688374625254/virtu_tech_solutions_logo?e=1732147200&v=beta&t=3CMhk5EWJQvXVlOqT7kxHMblrITtNa6IUdUgjg56xJQ',
         role: 'Frontend Developer',
-        company: 'Cuvette Tech',
+        company: 'Virtu Tech Solutions',
         date: 'June 2023 - Present',
         desc: 'Developed expertise in Frontend Web Development technologies, applying them to create dynamic web applications with seamless front-end Design and user experience for various projects.',
         skills: [
@@ -220,6 +220,26 @@ export const education = [
 
 export const projects = [
     {
+        id: 11,
+        title: 'BidGo',
+        description:
+            'BidGo is a web application designed for drivers to explore and understand how the platform operates. The site, which has been recently redesigned, is built using React for the frontend and styled with TailwindCSS.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/BidGo.png?raw=true',
+        tags: ['React Js', 'TailwindCSS','ReactRouterDOM'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/BidGo',
+        webapp: 'https://bid-go.vercel.app/',
+    },{
+        id: 12,
+        title: 'Virtu Tech Solutions',
+        description:
+            'Virtu Tech Solutions is a web application designed to provide a comprehensive overview of the organization. The site underwent a complete redesign, utilizing React for the frontend and TailwindCSS for styling to enhance its functionality and visual appeal.',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/virtu-tech.png?raw=true',
+        tags: ['React Js', 'API','Axios','TailwindCSS'],
+        category: 'frontend',
+        github: 'https://github.com/praveenakamrshadow/virtu-reimagine',
+        webapp: 'https://virtu-reimagine.vercel.app/',
+    },{
         id: 0,
         title: 'CineWave',
         description:

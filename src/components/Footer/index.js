@@ -102,7 +102,7 @@ function Footer() {
                     </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2023 Praveen Sahu. All rights reserved.
+                    &copy; 2024 Praveen Sahu. All rights reserved.
                 </Copyright>
             </FooterWrapper>
         </FooterContainer>
