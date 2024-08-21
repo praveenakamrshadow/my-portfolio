@@ -191,7 +191,7 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: 'https://www.cec.ac.in/images/CECLogo.jpg',
+        img: '/assets/cec.jpg',
         school: 'Chaitanya Engineering College, Visakhapatnam',
         date: 'Sep 2019 - Apr 2023',
         grade: '7.0 CGPA',
