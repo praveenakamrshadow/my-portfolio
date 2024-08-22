@@ -1,9 +1,9 @@
+import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { useState, useEffect } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import styled from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes.js';
 import Navbar from './components/Navbar';
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -12,9 +12,9 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import ProjectDetails from './components/ProjectDetails';
-import styled from 'styled-components';
 import BackToTopButton from './components/BackToTop.jsx/BackToTopButton.jsx';
 import Loader from './components/loader/Loader.js';
+import './App.css';
 
 const Body = styled.div`
     background-color: ${({ theme }) => theme.bg};
@@ -36,6 +36,15 @@ const Wrapper = styled.div`
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
+
+const ResponsiveBackToTopButton = styled(BackToTopButton)`
+    display: block;
+    
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
 function App() {
     const [darkMode] = useState(true);
     const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -53,7 +62,7 @@ function App() {
 
     return (
         <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-            <BackToTopButton />
+            <ResponsiveBackToTopButton />
             <Router>
                 <Navbar />
                 <Body>
