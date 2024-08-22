@@ -125,7 +125,7 @@ const ContactButton = styled.input`
 const Contact = () => {
   //hooks
   const [open, setOpen] = useState(false);
-  const [alertType, setAlertType] = useState('success'); // to store the type of alert
+  const [alertType, setAlertType] = useState('success');
   const form = useRef();
 
   const handleSubmit = (e) => {

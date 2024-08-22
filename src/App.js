@@ -13,6 +13,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import ProjectDetails from './components/ProjectDetails';
 import styled from 'styled-components';
+import BackToTopButton from './components/BackToTop.jsx/BackToTopButton.jsx';
 
 const Body = styled.div`
     background-color: ${({ theme }) => theme.bg};
@@ -40,6 +41,7 @@ function App() {
     console.log(openModal);
     return (
         <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+            <BackToTopButton/>
             <Router>
                 <Navbar />
                 <Body>

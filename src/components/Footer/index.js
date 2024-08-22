@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Bio } from '../../data/constants';
+import { GitHub, Mail, Twitter, X } from '@mui/icons-material';
 
 const FooterContainer = styled.div`
     width: 100%;
@@ -94,11 +94,17 @@ function Footer() {
                     <NavLink href="#education">Education</NavLink>
                 </Nav>
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.twitter} target="display">
-                        <TwitterIcon />
-                    </SocialMediaIcon>
                     <SocialMediaIcon href={Bio.linkedin} target="display">
                         <LinkedInIcon />
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.github} target="display">
+                        <GitHub />
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.mail} target="display">
+                        <Mail />
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.twitter} target="display">
+                        <X />
                     </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>

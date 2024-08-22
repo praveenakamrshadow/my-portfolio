@@ -1,0 +1,30 @@
+.back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: #9000FF;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    border: none;
+    outline: none;
+    transform-origin: center;
+    z-index: 9999;
+}
+
+.back-to-top:hover {
+    background-color: #D700FF;
+}
+
+.back-to-top svg {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border-radius: 50%;
+}

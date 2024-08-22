@@ -13,6 +13,7 @@ export const Bio = {
     resume: 'https://drive.google.com/file/d/1lYDhH_AtUDscKkXxkRWBiKbcgsae3tow/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/praveenpkyt/',
     twitter: 'https://twitter.com/Praveen_PKYT',
+    mail: 'mailto:praveensahu.work@gmail.com'
 };
 
 export const skills = [
