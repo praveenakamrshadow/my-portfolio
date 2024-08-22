@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { darkTheme, lightTheme } from './utils/Themes.js';
 import Navbar from './components/Navbar';
 import './App.css';
@@ -14,6 +14,7 @@ import Education from './components/Education';
 import ProjectDetails from './components/ProjectDetails';
 import styled from 'styled-components';
 import BackToTopButton from './components/BackToTop.jsx/BackToTopButton.jsx';
+import Loader from './components/loader/Loader.js';
 
 const Body = styled.div`
     background-color: ${({ theme }) => theme.bg};
@@ -38,10 +39,21 @@ const Wrapper = styled.div`
 function App() {
     const [darkMode] = useState(true);
     const [openModal, setOpenModal] = useState({ state: false, project: null });
-    console.log(openModal);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 2500);
+    }, []);
+
+    if (loading) {
+        return <Loader />;
+    }
+
     return (
         <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-            <BackToTopButton/>
+            <BackToTopButton />
             <Router>
                 <Navbar />
                 <Body>
