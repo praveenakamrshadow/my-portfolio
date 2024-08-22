@@ -38,10 +38,13 @@ const Wrapper = styled.div`
 `;
 
 const ResponsiveBackToTopButton = styled(BackToTopButton)`
-    display: block;
-    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+
     @media (max-width: 768px) {
-        display: none;
+        transform: translateX(100vw);
     }
 `;
 
