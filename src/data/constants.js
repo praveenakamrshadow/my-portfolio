@@ -225,7 +225,7 @@ export const projects = [
         title: 'N2N Distributors',
         description:
             'Designed & developed the website for N2N Distributors, a prominent distribution and holding company in Dominica with 28 years of experience. N2N specializes in telecommunications, office solutions, security systems, IT networking, and courier services, serving an average of 1,400 customers daily across seven retail locations. The site highlights their commitment to managing and growing technology brands, showcasing their range of services and historical milestones.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/BidGo.png?raw=true',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/n2n.png?raw=true',
         tags: ['React Js', 'TailwindCSS','ReactRouterDOM, Framer Motion'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/N2N-Distributors',
@@ -247,7 +247,7 @@ export const projects = [
         title: 'Deeplogics',
         description:
             'Designed & developed a responsive website for Deeplogics Labs Corp., a cybersecurity consulting firm with over two decades of experience. Built with React and Tailwind CSS, the site delivers tailored cybersecurity solutions with an optimized user experience and performance.',
-        image: 'https://github.com/praveenakamrshadow/images/blob/main/BidGo.png?raw=true',
+        image: 'https://github.com/praveenakamrshadow/images/blob/main/deeplogics.png?raw=true',
         tags: ['React Js', 'TailwindCSS','ReactRouterDOM, Framer Motion'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/Deeplogics',
