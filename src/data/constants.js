@@ -76,7 +76,7 @@ export const skills = [
             {
                 name: 'MySQL',
                 image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
-            }, 
+            },
             {
                 name: 'Postman',
                 image: '/assets/postman.svg',
@@ -117,7 +117,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: 'https://media.licdn.com/dms/image/v2/D560BAQFLExlq8rj9wg/company-logo_200_200/company-logo_200_200/0/1688374625254/virtu_tech_solutions_logo?e=1732147200&v=beta&t=3CMhk5EWJQvXVlOqT7kxHMblrITtNa6IUdUgjg56xJQ',
+        img: 'https://www.virtutechsolutions.com/wp-content/uploads/2023/06/virtu-logo.png',
         role: 'Frontend Developer',
         company: 'Virtu Tech Solutions',
         date: 'June 2023 - Present',
@@ -226,7 +226,7 @@ export const projects = [
         description:
             'Designed & developed the website for N2N Distributors, a prominent distribution and holding company in Dominica with 28 years of experience. N2N specializes in telecommunications, office solutions, security systems, IT networking, and courier services, serving an average of 1,400 customers daily across seven retail locations. The site highlights their commitment to managing and growing technology brands, showcasing their range of services and historical milestones.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/n2n.png?raw=true',
-        tags: ['React Js', 'TailwindCSS','ReactRouterDOM, Framer Motion'],
+        tags: ['React Js', 'TailwindCSS', 'ReactRouterDOM, Framer Motion'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/N2N-Distributors',
         webapp: 'https://n2n-distributors.vercel.app/',
@@ -237,7 +237,7 @@ export const projects = [
         description:
             'Designed & developed the website for ezBARREL, a trusted name in Caribbean shipping. They offer reliable air and ocean services from their 7,500 sqft warehouse in Jamaica, New York. With over a decade of experience, ezBARREL ensures timely pickups and weekly shipments to Miami. I aimed to create a site that showcases their commitment to quality service and customer satisfaction.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/BidGo.png?raw=true',
-        tags: ['React Js', 'TailwindCSS','ReactRouterDOM, Framer Motion'],
+        tags: ['React Js', 'TailwindCSS', 'ReactRouterDOM, Framer Motion'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/EzBarrel-Redesign',
         webapp: 'https://ezbarrel.vercel.app/',
@@ -248,7 +248,7 @@ export const projects = [
         description:
             'Designed & developed a responsive website for Deeplogics Labs Corp., a cybersecurity consulting firm with over two decades of experience. Built with React and Tailwind CSS, the site delivers tailored cybersecurity solutions with an optimized user experience and performance.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/deeplogics.png?raw=true',
-        tags: ['React Js', 'TailwindCSS','ReactRouterDOM, Framer Motion'],
+        tags: ['React Js', 'TailwindCSS', 'ReactRouterDOM, Framer Motion'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/Deeplogics',
         webapp: 'https://deeplogics.vercel.app/',
@@ -259,32 +259,32 @@ export const projects = [
         description:
             'BidGo is a web application designed for drivers to explore and understand how the platform operates. The site, which has been recently redesigned, is built using React for the frontend and styled with TailwindCSS.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/BidGo.png?raw=true',
-        tags: ['React Js', 'TailwindCSS','ReactRouterDOM'],
+        tags: ['React Js', 'TailwindCSS', 'ReactRouterDOM'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/BidGo',
         webapp: 'https://bid-go.vercel.app/',
-    },{
+    }, {
         id: 5,
         title: 'Virtu Tech Solutions',
         description:
             'Virtu Tech Solutions is a web application designed to provide a comprehensive overview of the organization. The site underwent a complete redesign, utilizing React for the frontend and TailwindCSS for styling to enhance its functionality and visual appeal.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/virtu-tech.png?raw=true',
-        tags: ['React Js', 'API','Axios','TailwindCSS'],
+        tags: ['React Js', 'API', 'Axios', 'TailwindCSS'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/virtu-reimagine',
         webapp: 'https://virtu-reimagine.vercel.app/',
-    },{
+    }, {
         id: 6,
         title: 'CineWave',
         description:
             'This is a web application built with React that allows users to explore and discover movies and TV shows. It utilizes various libraries and tools to provide a seamless user experience.',
         image: 'https://github.com/praveenakamrshadow/images/blob/main/CineWave.png?raw=true',
-        tags: ['React Js', 'API','Axios','TailwindCSS', 'React Player', 'Redux'],
+        tags: ['React Js', 'API', 'Axios', 'TailwindCSS', 'React Player', 'Redux'],
         category: 'frontend',
         github: 'https://github.com/praveenakamrshadow/CineWave',
         webapp: 'https://cinewave-react.vercel.app/',
     },
-    
+
     {
         id: 7,
         title: 'Super App',
