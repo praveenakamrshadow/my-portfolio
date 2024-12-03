@@ -117,7 +117,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: 'https://media.licdn.com/dms/image/v2/D560BAQFLExlq8rj9wg/company-logo_200_200/company-logo_200_200/0/1688374625254/virtu_tech_solutions_logo?e=1732147200&v=beta&t=3CMhk5EWJQvXVlOqT7kxHMblrITtNa6IUdUgjg56xJQ',
+        img: 'https://www.virtutechsolutions.com/wp-content/uploads/2023/06/virtu-logo.png',
         role: 'Frontend Developer',
         company: 'Virtu Tech Solutions',
         date: 'June 2023 - Present',
